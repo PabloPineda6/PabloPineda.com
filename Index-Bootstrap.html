@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Pablo's Page</title>
+    <style>
+        nav.d-flex a[aria-expanded="true"] {
+            color: #00550d !important;
+            border-bottom: 1px solid #00550d;
+    }
+    </style>
 </head>
 <body class="h-100">
     
@@ -35,106 +41,95 @@
                   <div class="col-sm-8 p-5 h-100 d-flex flex-column">
                         <section class="h-100 d-flex flex-column justify-content-center">
                             <main class="p-5 border border-success h-100 d-flex flex-column justify-content-center">
-                                    <article class="shadow-sm p-3 mb-5 bg-white rounded collapse show" id="Hello" data-parent="#accordion">
-                                        <h4 class="text-secondary text-center text-uppercase">Hello</h4>
-                    
-                                        Please click on the options at the lower left side of this page to see a little information about me.
-                                        
-                                        <----
+                                    <article class="collapse show" id="Hello" data-parent="#accordion">
+                                        <div class="shadow-sm p-3 mb-5 bg-white rounded" style= "margin-top: 150px">
+                                                <h3 class="text-secondary text-center text-uppercase">Hello!!!</h3>
+                                                <h5 class="text-secondary text-center" style= "margin-top: 30px">Thanks for visiting my site</h5>
+                                                <p class="text-center" style= "margin-top: 15px; text-align: justify">Please click on the options at the lower left side of this page to see a little information about me.</p>
+                                            </div>
+                                        <p style= "margin-top: 100px; font-weight: bold; font-size: 50px"><----</p>
                                     </article>
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="WhoAmI" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Who am I</h4>
-                
-                                    So, as usual is hard to describe oneself.
-                                    
-                                    As a presentation I would say I’m a nice, caring, happy and optimistic person (now).
-                                    
-                                    I work hard and laugh even harder, Love food and enjoy it the more than anything else in life. I’m trying to succeed living on my own and caring for myself 
-                                    as I give some of my time to try to relieve human pain alongside my Red Cross companions and friends.
-                
-                                    I do my share of sports and exercise as I eat a lot, but I don’t want to damage my health.
-                
-                                    I’m a Mechatronics Engineer and a soon to be Electronics Engineer too. I talk read and walk in English and, lets face it, I’m just learning to love life 
-                                    after a really though beginning.
-                
-                                    So, come on with me, let’s see who I really am… It’s gonna be an interesting trip.
+                                    <p style= "margin-top: 30px; text-align: justify">So, as usual is hard to describe oneself.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">As a presentation I would say I’m a nice, caring, happy and optimistic person (now).</p>
+                                    <p style= "margin-top: 10px; text-align: justify">I work hard and laugh even harder, Love food and enjoy it the more than anything else in life. I’m trying to succeed living on my own and caring for myself 
+                                    as I give some of my time to try to relieve human pain alongside my Red Cross companions and friends.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">I do my share of sports and exercise as I eat a lot, but I don’t want to damage my health.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">I’m a Mechatronics Engineer and a soon to be Electronics Engineer too. I talk read and walk in English and, lets face it, I’m just learning to love life 
+                                    after a really though beginning.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">So, come on with me, let’s see who I really am… It’s gonna be an interesting trip.</p>
                                 </article>
                                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="PersonalHistory" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Personal history</h4>
-                
-                                     There is way too much I don't really want to share, not because I'm any how ashamed or I might be some sord of monster or anything like that. The thing is 
+                                     <p style= "margin-top: 30px; text-align: justify">There is way too much I don't really want to share, not because I'm any how ashamed or I might be some sord of monster or anything like that. The thing is 
                                      most wouldn't believe nor understand it, and yet they would dare judge me and even call me a liar (as it has happened before) wich is highly depressing, so, 
-                                     I'll just tell my normal, believable story, and here it is:
-                
-                                     Borned in a regular, loving and caring family, second of three children. Both of my parents were teachers, chemistry teachers so education was kind of strict.
-                                     Also, my two brothers and I were kind of good friends, 
+                                     I'll just tell my normal, believable story, and here it is:</p>
+                                     <p style= "margin-top: 10px; text-align: justify">Borned in a regular, loving and caring family, second of three children. Both of my parents were teachers, chemistry teachers so education was kind of strict.
+                                     Also, my two brothers and I were kind of good friends.</p>
+                                     <p style= "margin-top: 10px; text-align: justify">I was always a nice, loving and caring person, good at school and imaginative. I grew up wanting to be an odontologist until I got my brackets (that literally 
+                                        killed that dream). So I started wanting to create robots, I studied Electrical and Mechatronics engineering to be able to do that (sad enough, robots where not 
+                                        as artistic as I thought they would, at least not robotics as I have used them so far), so after long years working with hardware I got into a software related job 
+                                        (as a software tester) and I found in software a long ago lost passion for front end programming is actually really artistic, so... Here I am now</p>
                                 </article>
                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="Languages" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Languages</h4>
-                
-                                    (Just English, Sorry… not sorry). It is said English is the universal language, so my mother decided I had to learn it, also I already knew a bit about it, 
+                                    <p style= "margin-top: 30px; text-align: justify">(Just English, Sorry… not sorry).</p>
+                                    <p style= "margin-top: 10px; text-align: justify">It is said English is the universal language, so my mother decided I had to learn it, also I already knew a bit about it, 
                                     cause I love playing videogames, specially ROL ones such as Final Fantasy and similar ones, and I also love certain music (Rock, Hard Rock and old ballads) 
                                     which is much more meaningful and nice in English. I dear to guess (not knowing at all) that’s why English was so easy for me to learn, you know it was just 
-                                    fun for me.
-                
-                                    Anyway, I would love to learn other languages, I think it’s an awesome knowledge to have, and can never go wrong, specially if you wanna travel the world 
-                                    (and I do), so I hope I can start with German and keep going from there… Wish me luck.
+                                    fun for me.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">Anyway, I would love to learn other languages, I think it’s an awesome knowledge to have, and can never go wrong, specially if you wanna travel the world 
+                                    (and I do), so I hope I can start with German and keep going from there… Wish me luck.</p>
                                 </article>
                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="MyFamilyAndFriends" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">My family and friends</h4>
-                
-                                    I have huge feelings for my family and friends. My family, bad or good job, made me most of what I am today, with them I learned to be humble, empathic,
+                                    <p style= "margin-top: 30px; text-align: justify">I have huge feelings for my family and friends. My family, bad or good job, made me most of what I am today, with them I learned to be humble, empathic,
                                     thankful, kind, I learned that being right doesn't mean it's fine to show off for feelings mean more than victories, I learned that to love is to let things go 
-                                    so an old and honest mistake doesn't kill feelings.
-
-                                    For my friends I have the deepest feelings, for it's them who helped me love life and learn how to see things from other people's eyes. My family gave me life, 
+                                    so an old and honest mistake doesn't kill feelings.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">For my friends I have the deepest feelings, for it's them who helped me love life and learn how to see things from other people's eyes. My family gave me life, 
                                     but was my friends who helped me learn to apreciate it, because life, sometimes can be a curse more than a present and is hard to but was my friends who helped 
                                     me learn to appreciate it, because life, sometimes can be a curse more than a present and is hard to see any light at the end of the tunnel. In those moments a 
-                                    loving and caring hand can easily save a life... And even a soul.
+                                    loving and caring hand can easily save a life... And even a soul.</p>
                                 </article>
                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="MeNowADays" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Me, now a days</h4>
-
-                                    So, I used to be a deep thinker. Always wondering the why and how of things I couldn't comprehend. I used to wander through the city beating my mind with ideals, 
+                                    <p style= "margin-top: 30px; text-align: justify">So, I used to be a deep thinker. Always wondering the why and how of things I couldn't comprehend. I used to wander through the city beating my mind with ideals, 
                                     hopes and dreams never to come true; let's be honest here, that was worthless and really stressful, but it did teach me a lot about myself and others and I'm not 
-                                    ashamed to say I learned a lot from my own depression. First, I learned nothing was given for free in life, you need to fight to the bitter end and never let go 
-                                    of the things you cherish, or they are gonna be taken away from you. Second, I learned, over anything you can get for yourself, never hurt others to get it, for 
-                                    nothing is worth shit if you hurt others for it. Third and most important of all, smile, be happy, don't you ever let anyone take away who you are, for most will 
-                                    try and if they succeed, life will be a hell. Don't you ever forget you are the one person who loves you the most, knows you the most, does anything for you and 
-                                    always forgives you, so you owe that person the very best you can give him or her. This... This is my new philosophy of life, and trust me, it is worthy.
+                                    ashamed to say I learned a lot from my own depression.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">First, I learned nothing was given for free in life, you need to fight to the bitter end and never let go of the things you cherish, or they are gonna be taken away 
+                                    from you.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">Second, I learned, over anything you can get for yourself, never hurt others to get it, for nothing is worth shit if you hurt others for it.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">Third and most important of all, smile, be happy, don't you ever let anyone take away who you are, for most will try and if they succeed, life will be a hell. Don't 
+                                    you ever forget you are the one person who loves you the most, knows you the most, does anything for you and always forgives you, so you owe that person the very best 
+                                    you can give him or her. This... This is my new philosophy of life, and trust me, it is worthy.</p>
                                 </article>
                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="RedCross" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Red Cross</h4>
-
-                                    I learned, giving to others fill some holes in one's soul, so I give some of my time to the Red Cross. I love what I do there and enjoy myself an amazing lot. It's 
-                                    actually a great way to force me to interact with others, smile and give my best to achive a beautyful goal, hoping to give to others the care and love we all need.
-                                    
-                                    I did it with the intention to learn how to save other's lives, but possibly it actually saved mine.
+                                    <p style= "margin-top: 30px; text-align: justify">I learned, giving to others fill some holes in one's soul, so I give some of my time to the Red Cross. I love what I do there and enjoy myself an amazing lot. It's 
+                                    actually a great way to force me to interact with others, smile and give my best to achive a beautyful goal, hoping to give to others the care and love we all need.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">I did it with the intention to learn how to save other's lives, but possibly it actually saved mine.</p>
                                 </article>
                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="Food" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Food</h4>
-
-                                    I love food... Well, possibly love is not quite the right word, for my feelings for food might actually be much greater than love.
-
-                                    I don't eat for hunger nor for filling my body with energy, food is such a pleasure, such an experience, is almost as if it fills my soul with such divine touch. It's 
-                                    basically the one thing that means more than anything else in life.
-
-                                    Food is my sin, my heaven, my weakness and my strength... I mean, what else can you ask for?
+                                    <p style= "margin-top: 30px; text-align: justify">I love food... Well, possibly love is not quite the right word, for my feelings for food might actually be much greater than love.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">I don't eat for hunger nor for filling my body with energy, food is such a pleasure, such an experience, is almost as if it fills my soul with such divine touch. It's 
+                                    basically the one thing that means more than anything else in life.</p>
+                                    <p style= "margin-top: 10px; text-align: justify">Food is my sin, my heaven, my weakness and my strength... I mean, what else can you ask for?</p>
                                 </article>
                 
                                 <article class="shadow-sm p-3 mb-5 bg-white rounded collapse" id="PlansForTheFuture" data-parent="#accordion">
                                     <h4 class="text-secondary text-center text-uppercase">Plans for the future</h4>
-
-                                    Well, right now it's hard to share my plans, one because my life has changed a lot since last October and my plans are changing too. And two, because if I share while 
-                                    I'm making those plans come true and they are in their first stages, they might not become a solid reality so, for now I'll just say this:
-                                    In six years or less I'll be creating 3D models for videos and/or video games, I won't work for a need of money but for the pleasure of it and I will have small businesses 
-                                    to fill my monetary needs.
+                                    <p style= "margin-top: 30px; text-align: justify">Well, right now it's hard to share my plans, one because my life has changed a lot since last October and my plans are changing too. And two, because if I share while 
+                                    I'm making those plans come true and they are in their first stages, they might not become a solid reality so, for now I'll just say this:</p>
+                                    <p style= "margin-top: 10px; text-align: justify">In six years or less I'll be creating 3D models for videos and/or video games, I won't work for a need of money but for the pleasure of it and I will have small businesses 
+                                    to fill my monetary needs.</p>
                                 </article>
                             </main>
                         </section>
