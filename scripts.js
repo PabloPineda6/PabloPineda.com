@@ -14,3 +14,30 @@ item3.textContent = "In two years or less I will invest in small businesses to s
 ToDo.appendChild(item1)
 ToDo.appendChild(item2)
 ToDo.appendChild(item3)
+
+// MUSIC
+
+// document.querySelector
+const Music = document.querySelector("#Music")
+
+var links = ["https://www.youtube.com/embed/Fq-KORMeNBE", "https://www.youtube.com/embed/Yi8UJQtO_AM", "https://www.youtube.com/embed/VEkpuOB92jc",
+            "https://www.youtube.com/embed/TlUOJ_NbrhU", "https://www.youtube.com/embed/uIu-rMBwKas", "https://www.youtube.com/embed/PI1oVXHTPUI",
+            "https://www.youtube.com/embed/htCcgpisgtk"]
+
+const prev = document.getElementById("prev")
+const info = document.getElementById("info")
+const next = document.getElementById("next")
+var playlist = 1;
+var video = document.getElementById("Music")
+prev.onclick = function(){
+    if (playlist >1) playlist = playlist -1;
+    else playlist = 7;
+    info.textContent = "List " + String(playlist) + " of 7";
+    video.src = links[playlist -1];
+}
+next.onclick = function(){
+    if (playlist <7) playlist = playlist +1;
+    else playlist = 1;
+    info.textContent = "List " + String(playlist) + " of 7";
+    video.src = links[playlist -1];
+}
